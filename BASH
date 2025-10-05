@@ -1,5 +1,5 @@
-git init
-git remote add origin https://github.com/YOUR_USERNAME/501st-command-console.git
-git add .
-git commit -m "Initial commit: 501st Command Console"
-git push -u origin main
+npm create vite@latest 501st-command-console --template react
+cd 501st-command-console
+npm install
+npm install tailwindcss framer-motion d3
+npx tailwindcss init -p
